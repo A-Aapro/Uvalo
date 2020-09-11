@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@font-face {
+    font-family: "Work Sans", sans-serif "Merriweather", serif;
+    src: url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+    src: url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    font-size: 14px;
+    color: #181818;
+    background-color: #242121;
+    padding: 1%;
+}
+
+.share-buttons {
+    margin: auto;
+    padding-left: 10px;
+}
+
+.kesa {
+    max-width: 200px;
+}
+
+.jumbotron {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Merriweather", serif;
+    color: rgb(6, 7, 5);
+    background-color: #ffffff;
+    border-radius: 0%;
+}
+
+.logo {
+    width: 100%;
+    max-width: 500px;
+}
+
+.assitive-text {
+    display: none;
+    font-size: 0;
+}
+
+#welcome-text {
+    font-size: 12px;
+}
+
+.header-container {
+    margin: auto;
+    font-size: large;
+    max-width: 400px;
+}
+
+#carouselFade {
+    display: inline-block;
+    margin: auto;
+}
+
+.carousel-inner {
+    margin: auto;
+    max-width: 400px;
+}
+
+.carousel-caption {
+    color: rgb(255, 248, 248);
+    font-weight: bold;
+}
+
+
+.exhibition-text {
+    color: rgb(6, 7, 5);
+    font-weight: bold;
+}
+
+.container-fluid {
+    background-color: #ffffff;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.gallery-grid {
+    text-align: center;
+}
+
+.gallery-enter {
+    margin: auto;
+    max-width: 100px;
+    margin: 5px;
+    padding: 2px;
+}
