@@ -55,7 +55,7 @@ body {
 }
 
 .header-container {
-    margin: auto;
+    margin: 30px;
     font-size: large;
     max-width: 600px;
 }
