@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@font-face {
+    font-family: "Work Sans", sans-serif "Merriweather", serif;
+    src: url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+    src: url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    font-size: 14px;
+    color: #181818;
+    background-color: #242121;
+    padding: 1%;
+}
+
+.share-buttons {
+    margin: auto;
+    padding-left: 10px;
+}
+
+.kesa {
+    max-width: 200px;
+}
+
+.jumbotron {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Merriweather", serif;
+    color: rgb(6, 7, 5);
+    background-color: #ffffff;
+    border-radius: 0%;
+}
+
+.logo {
+    width: 100%;
+    max-width: 500px;
+}
+
+.assitive-text {
+    display: none;
+    font-size: 0;
+}
+
+.header-container {
+    font-size: large;
+    max-width: 500px;
+}
+
+.header-container {
+    font-size: large;
+    font-size: 16px;
+
+}
+
+#carouselFade {
+    display: inline-block;
+    margin: auto;
+}
+
+.carousel-inner {
+    margin: auto;
+    max-width: 400px;
+}
+
+.caption-photo {
+    color: rgb(22, 21, 21);
+    background-color: rgba(226, 226, 226, 0.479);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.exhibition-text {
+    color: rgb(6, 7, 5);
+    font-weight: bold;
+}
+
+.galleries, .info-footer {
+    background-color: #ffffff;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.white-text {
+    font-size: 0px;
+}
+
+.gallery-grid {
+    text-align: center;
+}
+
+.photographers {
+    background-color: #ffffff;
+}
+
+#photographers-heading {
+    display: block;
+    padding: 10px;
+    min-height: 50px;
+    margin-top: 30px;
+}
+
+#photographers-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.card {
+    margin: 20px;
+}
+.card-photo{
+    max-width: 150px;
+}
